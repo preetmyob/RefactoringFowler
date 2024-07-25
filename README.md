@@ -7,7 +7,7 @@ The C# code follows the JavaScript as closely as possible
 The C# code should be "good style", specifically [ReSharper](https://www.jetbrains.com/resharper) should have no warnings
 
 ## Target Environment
-.NET Core 5.0
+.NET Core 8.0
 
 ### Build
 * [Visual Studio Code](https://code.visualstudio.com) v1.52+ with [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) v1.23+
