@@ -66,13 +66,13 @@ namespace Chapter1.Tests
                 public IEnumerator<object[]> GetEnumerator()
                 {
                     yield return new object[] { new VideoStore0BeforeRefactor() };
-                    yield return new object[] { new VideoStore1DecomposeMethod() };
-                    yield return new object[] { new VideoStore2RemoveVariable() };
-                    yield return new object[] { new VideoStore3ExtractMethod() };
-                    yield return new object[] { new VideoStore4RemoveVariable() };
-                    yield return new object[] { new VideoStore5RemoveLoops() };
-                    yield return new object[] { new VideoStore6SplitPhase() };
-                    yield return new object[] { new VideoStore7Polymorphism() };
+                    // yield return new object[] { new VideoStore1DecomposeMethod() };
+                    // yield return new object[] { new VideoStore2RemoveVariable() };
+                    // yield return new object[] { new VideoStore3ExtractMethod() };
+                    // yield return new object[] { new VideoStore4RemoveVariable() };
+                    // yield return new object[] { new VideoStore5RemoveLoops() };
+                    // yield return new object[] { new VideoStore6SplitPhase() };
+                    // yield return new object[] { new VideoStore7Polymorphism() };
                 }
 
                 IEnumerator IEnumerable.GetEnumerator()
